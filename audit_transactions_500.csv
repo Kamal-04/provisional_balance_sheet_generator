@@ -1,0 +1,501 @@
+transaction_id,client_name,date,ledger_head,category_code,amount,gst_amount,type,payment_mode,remarks
+cee8edec,PQR Enterprises,2025-03-13,Travel Expenses,002,35831.73,6449.71,Debit,Cash,Pending approval
+53894f4f,PQR Enterprises,2024-12-24,Travel Expenses,002,25024.51,4504.41,Debit,UPI,Reimbursed
+c374d8f1,XYZ Ltd,2024-11-25,Maintenance,006,46692.32,8404.62,Credit,Bank Transfer,Advance cleared
+facce1ab,Omega Inc,2024-09-01,Software Purchase,005,47912.43,8624.24,Credit,Credit Card,Payment processed successfully
+6b4aaa94,Delta Co,2025-08-01,Maintenance,006,48033.19,8645.97,Debit,Cheque,Part payment
+c2bef9a8,Omega Inc,2025-01-03,Maintenance,006,32532.8,5855.9,Credit,Cheque,Advance cleared
+b94712cc,LMN Pvt Ltd,2024-08-14,Travel Expenses,002,13198.23,0.0,Credit,Credit Card,Includes GST
+c803979f,XYZ Ltd,2024-10-11,Travel Expenses,002,3597.26,647.51,Credit,Bank Transfer,Reimbursed
+b33a4bfa,ABC Corp,2025-07-07,Travel Expenses,002,48666.35,0.0,Credit,Credit Card,Without GST
+5d2cff03,Omega Inc,2025-03-15,Salary,003,49007.14,8821.29,Debit,UPI,Part payment
+808530b6,LMN Pvt Ltd,2025-01-15,Consultancy Fees,004,42434.76,7638.26,Credit,Bank Transfer,Payment processed successfully
+1ebe7091,Delta Co,2025-01-07,Salary,003,8073.14,1453.17,Credit,Bank Transfer,Part payment
+5635d2b4,XYZ Ltd,2025-03-17,Maintenance,006,18448.67,0.0,Credit,Bank Transfer,Without GST
+e14413ab,XYZ Ltd,2025-01-16,Travel Expenses,002,27484.74,4947.25,Credit,UPI,Pending approval
+53337df8,ABC Corp,2025-03-04,Office Supplies,001,4477.4,805.93,Credit,Credit Card,Pending approval
+773e847a,Delta Co,2025-05-21,Consultancy Fees,004,2552.65,459.48,Debit,UPI,Urgent payment
+ab4de36e,LMN Pvt Ltd,2025-08-10,Software Purchase,005,36163.49,6509.43,Debit,UPI,Urgent payment
+f8a41b3e,XYZ Ltd,2025-02-11,Travel Expenses,002,39675.84,7141.65,Debit,UPI,Includes GST
+cc555495,PQR Enterprises,2025-03-29,Travel Expenses,002,25662.43,4619.24,Credit,Credit Card,Pending approval
+09cc38d4,ABC Corp,2024-11-30,Office Supplies,001,18028.88,3245.2,Credit,Bank Transfer,Part payment
+90f046f2,LMN Pvt Ltd,2024-12-12,Maintenance,006,22434.69,4038.24,Debit,Cheque,Without GST
+c98f6e33,LMN Pvt Ltd,2024-09-29,Maintenance,006,37597.46,6767.54,Debit,Cheque,Includes GST
+3930f8ac,LMN Pvt Ltd,2024-11-10,Consultancy Fees,004,6925.76,1246.64,Credit,Cash,Payment processed successfully
+361254f9,PQR Enterprises,2024-12-12,Office Supplies,001,21066.61,3791.99,Debit,UPI,Includes GST
+c91a430c,ABC Corp,2024-09-15,Maintenance,006,14592.97,2626.73,Credit,Cash,Without GST
+bff2da85,ABC Corp,2025-03-08,Maintenance,006,27330.6,0.0,Debit,Bank Transfer,Pending approval
+487d0cde,Omega Inc,2025-05-19,Consultancy Fees,004,27328.95,4919.21,Credit,Credit Card,Part payment
+7a215157,PQR Enterprises,2025-03-03,Consultancy Fees,004,6204.47,1116.8,Debit,Cheque,Final settlement
+22d676ec,XYZ Ltd,2025-05-03,Salary,003,26354.44,4743.8,Credit,UPI,Pending approval
+ac40fae7,Delta Co,2024-12-16,Consultancy Fees,004,42234.39,7602.19,Credit,Cheque,Pending approval
+42e2ba22,XYZ Ltd,2025-07-14,Software Purchase,005,11613.26,0.0,Credit,Cheque,Reimbursed
+a0f1e649,LMN Pvt Ltd,2025-07-11,Travel Expenses,002,2813.81,506.49,Credit,Bank Transfer,Final settlement
+366ad019,ABC Corp,2025-05-31,Software Purchase,005,44237.79,0.0,Credit,Cheque,Without GST
+910b22b6,ABC Corp,2025-01-17,Consultancy Fees,004,9261.48,1667.07,Debit,Bank Transfer,Without GST
+17799977,Omega Inc,2025-04-15,Travel Expenses,002,16205.33,2916.96,Debit,Bank Transfer,Reimbursed
+1dd4ed58,PQR Enterprises,2025-05-31,Software Purchase,005,44444.46,8000.0,Credit,Credit Card,Pending approval
+891ab9d6,Delta Co,2025-05-24,Office Supplies,001,4514.63,812.63,Debit,Cash,Final settlement
+25c6692f,PQR Enterprises,2025-05-15,Maintenance,006,33969.07,6114.43,Credit,Credit Card,Final settlement
+2b68f685,Omega Inc,2024-11-21,Software Purchase,005,20283.95,3651.11,Debit,Cash,Includes GST
+b4bc72e7,Omega Inc,2025-04-27,Maintenance,006,22673.92,4081.31,Credit,Cheque,Reimbursed
+e9889dc3,Delta Co,2024-11-01,Office Supplies,001,48040.16,8647.23,Debit,Credit Card,Includes GST
+2cd9d8de,ABC Corp,2025-05-20,Software Purchase,005,3576.36,643.74,Debit,Cheque,Part payment
+a8aab0e1,Omega Inc,2024-10-06,Salary,003,3750.16,675.03,Credit,Cheque,Advance cleared
+ae281a92,PQR Enterprises,2025-04-16,Consultancy Fees,004,6030.34,1085.46,Debit,Cheque,Urgent payment
+4504f885,Omega Inc,2024-11-10,Software Purchase,005,25314.7,4556.65,Credit,Credit Card,Payment processed successfully
+ae372379,PQR Enterprises,2025-08-11,Consultancy Fees,004,5189.76,934.16,Debit,Cash,Without GST
+35ac7cfd,Omega Inc,2025-07-23,Software Purchase,005,14892.44,2680.64,Debit,Credit Card,Final settlement
+c5605f52,Delta Co,2024-08-29,Salary,003,19322.66,3478.08,Credit,Credit Card,Pending approval
+74f08bf8,Delta Co,2024-11-23,Salary,003,27781.27,5000.63,Credit,Cash,Payment processed successfully
+ad45d44b,Omega Inc,2024-11-06,Salary,003,32507.01,5851.26,Debit,UPI,Advance cleared
+6b77003d,Delta Co,2025-01-05,Consultancy Fees,004,37572.62,6763.07,Debit,Cash,Includes GST
+e9230db3,PQR Enterprises,2024-08-28,Travel Expenses,002,8854.98,1593.9,Credit,Bank Transfer,Urgent payment
+ee1940df,Omega Inc,2024-09-17,Software Purchase,005,37942.74,6829.69,Credit,Bank Transfer,Final settlement
+bfe39572,LMN Pvt Ltd,2024-08-14,Maintenance,006,26858.28,0.0,Debit,Cash,Part payment
+2c4edb38,XYZ Ltd,2024-10-21,Salary,003,2759.71,0.0,Credit,Cheque,Urgent payment
+da898491,PQR Enterprises,2024-11-20,Software Purchase,005,41842.35,7531.62,Credit,Cash,Pending approval
+e599a700,Omega Inc,2024-09-12,Office Supplies,001,1384.36,249.18,Debit,Bank Transfer,Final settlement
+430fc127,ABC Corp,2024-12-26,Travel Expenses,002,38464.73,6923.65,Credit,UPI,Payment processed successfully
+97a40e16,ABC Corp,2025-01-01,Office Supplies,001,10138.7,1824.97,Credit,UPI,Final settlement
+3469c726,XYZ Ltd,2024-09-11,Salary,003,9655.73,1738.03,Credit,Cheque,Advance cleared
+eca3a198,PQR Enterprises,2025-03-03,Salary,003,30109.59,5419.73,Debit,Cheque,Final settlement
+0b02c3de,ABC Corp,2024-08-21,Consultancy Fees,004,9549.71,1718.95,Debit,Credit Card,Part payment
+47425ccb,XYZ Ltd,2024-09-06,Office Supplies,001,24083.35,0.0,Debit,Credit Card,Advance cleared
+5d71bb52,PQR Enterprises,2024-10-11,Consultancy Fees,004,48532.2,8735.8,Credit,Cheque,Includes GST
+b4a33f01,Delta Co,2024-11-23,Salary,003,16757.45,3016.34,Credit,Credit Card,Final settlement
+15153933,ABC Corp,2024-12-20,Maintenance,006,5249.53,944.92,Debit,UPI,Without GST
+3aad98d9,LMN Pvt Ltd,2024-11-20,Maintenance,006,2807.96,505.43,Debit,Cash,Part payment
+7b7cbd51,Delta Co,2025-07-22,Maintenance,006,41692.6,7504.67,Credit,Cheque,Without GST
+940769e8,LMN Pvt Ltd,2025-04-14,Office Supplies,001,26697.3,4805.51,Credit,Bank Transfer,Urgent payment
+e130fc46,ABC Corp,2025-03-23,Office Supplies,001,1647.63,296.57,Credit,Cheque,Final settlement
+f9701444,LMN Pvt Ltd,2025-03-11,Office Supplies,001,9274.37,1669.39,Debit,UPI,Urgent payment
+7af1fedc,LMN Pvt Ltd,2025-08-05,Software Purchase,005,37726.15,0.0,Credit,Cash,Final settlement
+346c3af5,LMN Pvt Ltd,2024-12-05,Consultancy Fees,004,17778.71,3200.17,Credit,Credit Card,Includes GST
+a0552c26,Omega Inc,2024-11-15,Maintenance,006,44664.23,8039.56,Debit,Cheque,Advance cleared
+317a8374,LMN Pvt Ltd,2024-11-13,Salary,003,28831.63,5189.69,Credit,Cheque,Reimbursed
+30fa15c5,Delta Co,2025-06-19,Salary,003,6346.41,1142.35,Debit,UPI,Final settlement
+f7d551de,Omega Inc,2025-02-12,Consultancy Fees,004,49955.62,8992.01,Credit,Bank Transfer,Includes GST
+ec530393,ABC Corp,2025-06-18,Travel Expenses,002,20387.43,3669.74,Credit,Bank Transfer,Reimbursed
+dafea911,PQR Enterprises,2025-06-25,Travel Expenses,002,41985.92,7557.47,Credit,Cheque,Pending approval
+c5664191,PQR Enterprises,2024-11-16,Salary,003,33685.76,6063.44,Credit,Cash,Final settlement
+24f800d3,PQR Enterprises,2025-01-15,Consultancy Fees,004,8141.34,1465.44,Credit,UPI,Urgent payment
+eb987358,Delta Co,2024-12-25,Salary,003,22045.49,3968.19,Credit,UPI,Payment processed successfully
+7003e034,PQR Enterprises,2025-05-20,Software Purchase,005,48495.82,8729.25,Credit,UPI,Advance cleared
+53889107,LMN Pvt Ltd,2024-10-05,Salary,003,40702.67,0.0,Credit,UPI,Final settlement
+05f48d70,ABC Corp,2024-12-31,Office Supplies,001,39749.32,7154.88,Debit,Cheque,Payment processed successfully
+0c9936d7,Delta Co,2025-04-02,Office Supplies,001,33415.64,6014.82,Debit,Cheque,Advance cleared
+0755d677,PQR Enterprises,2025-03-28,Consultancy Fees,004,22000.27,3960.05,Debit,UPI,Reimbursed
+6f7c7099,Delta Co,2025-07-07,Software Purchase,005,42463.12,7643.36,Debit,Cheque,Payment processed successfully
+342c86f9,LMN Pvt Ltd,2025-07-31,Travel Expenses,002,39926.0,7186.68,Credit,Bank Transfer,Pending approval
+6ffaf01e,Omega Inc,2025-03-05,Software Purchase,005,45900.84,8262.15,Credit,Cheque,Part payment
+a17de936,Delta Co,2025-03-22,Salary,003,2472.49,445.05,Debit,Credit Card,Urgent payment
+14e95145,Delta Co,2024-11-26,Travel Expenses,002,41112.55,7400.26,Debit,Credit Card,Payment processed successfully
+48d3d528,XYZ Ltd,2024-11-22,Salary,003,8213.78,1478.48,Debit,Credit Card,Without GST
+c082dfde,LMN Pvt Ltd,2024-12-30,Consultancy Fees,004,4695.47,845.18,Credit,Bank Transfer,Reimbursed
+83fca715,LMN Pvt Ltd,2025-08-01,Office Supplies,001,19698.8,3545.78,Credit,UPI,Pending approval
+3559635d,LMN Pvt Ltd,2025-06-20,Salary,003,16339.33,0.0,Credit,Bank Transfer,Pending approval
+1380317c,XYZ Ltd,2025-07-14,Software Purchase,005,6968.97,1254.41,Debit,Bank Transfer,Pending approval
+93fa272d,Omega Inc,2025-07-04,Software Purchase,005,12850.79,2313.14,Credit,Bank Transfer,Reimbursed
+451f4b0b,Omega Inc,2025-06-13,Travel Expenses,002,5320.33,957.66,Credit,Bank Transfer,Without GST
+2465f96d,PQR Enterprises,2025-01-12,Travel Expenses,002,5029.91,905.38,Debit,Bank Transfer,Advance cleared
+27721a57,PQR Enterprises,2025-07-26,Consultancy Fees,004,46156.15,0.0,Debit,Bank Transfer,Without GST
+9bf6385a,XYZ Ltd,2024-09-01,Travel Expenses,002,11919.81,2145.57,Credit,Cash,Without GST
+2b235987,XYZ Ltd,2024-12-22,Software Purchase,005,30140.84,5425.35,Credit,UPI,Includes GST
+55f68bb8,ABC Corp,2025-06-11,Office Supplies,001,7394.96,1331.09,Debit,Cheque,Payment processed successfully
+77fab9a8,ABC Corp,2025-03-06,Consultancy Fees,004,20073.12,3613.16,Debit,Cash,Reimbursed
+1c77ce60,ABC Corp,2024-12-30,Salary,003,10034.45,1806.2,Credit,Cash,Payment processed successfully
+0c2fd3c0,LMN Pvt Ltd,2024-12-09,Maintenance,006,20825.68,3748.62,Credit,Bank Transfer,Without GST
+ccc0ceaf,XYZ Ltd,2025-07-25,Office Supplies,001,36808.41,6625.51,Debit,UPI,Payment processed successfully
+44ead36c,PQR Enterprises,2025-01-02,Salary,003,23386.36,0.0,Credit,Cash,Final settlement
+28956869,LMN Pvt Ltd,2024-08-17,Salary,003,23560.37,4240.87,Debit,Credit Card,Without GST
+0093bd09,Omega Inc,2025-05-31,Office Supplies,001,49464.99,8903.7,Credit,UPI,Without GST
+a1fa9021,Delta Co,2024-12-30,Consultancy Fees,004,36085.17,6495.33,Credit,Cash,Pending approval
+26fe0142,XYZ Ltd,2025-06-08,Office Supplies,001,47993.04,8638.75,Credit,Cash,Without GST
+50e25812,LMN Pvt Ltd,2024-08-17,Salary,003,21876.34,3937.74,Debit,UPI,Part payment
+81d99564,Omega Inc,2025-05-02,Office Supplies,001,42277.25,7609.9,Credit,UPI,Includes GST
+fcb591e7,ABC Corp,2025-07-06,Office Supplies,001,10105.26,1818.95,Credit,Credit Card,Pending approval
+91ee865e,ABC Corp,2025-08-02,Office Supplies,001,39419.67,7095.54,Credit,UPI,Final settlement
+0d905bb1,XYZ Ltd,2024-09-06,Software Purchase,005,16857.6,0.0,Credit,Cash,Payment processed successfully
+adfa521c,XYZ Ltd,2024-11-06,Software Purchase,005,13027.96,2345.03,Credit,Bank Transfer,Final settlement
+ed4f2ac0,Delta Co,2025-02-09,Maintenance,006,25264.36,4547.58,Credit,Cheque,Part payment
+82a32ce4,Delta Co,2025-06-27,Office Supplies,001,19930.23,3587.44,Credit,Cheque,Final settlement
+706bc598,LMN Pvt Ltd,2025-01-07,Maintenance,006,44302.64,7974.48,Debit,Cheque,Advance cleared
+ded1f993,LMN Pvt Ltd,2025-02-19,Software Purchase,005,30649.99,5517.0,Credit,Bank Transfer,Without GST
+be1b6020,Delta Co,2025-03-12,Salary,003,13362.53,2405.26,Credit,Cash,Without GST
+8943b1b9,XYZ Ltd,2025-02-16,Salary,003,11038.6,1986.95,Credit,Cheque,Part payment
+c67f2b57,ABC Corp,2025-07-08,Office Supplies,001,2189.62,0.0,Debit,UPI,Final settlement
+40135a5f,Omega Inc,2024-10-29,Maintenance,006,3854.72,693.85,Credit,Bank Transfer,Without GST
+41281ca2,LMN Pvt Ltd,2025-01-24,Office Supplies,001,25575.78,4603.64,Debit,UPI,Part payment
+99f68f07,ABC Corp,2025-06-26,Travel Expenses,002,36351.6,6543.29,Credit,Cash,Payment processed successfully
+85e4d247,ABC Corp,2025-04-26,Consultancy Fees,004,13677.87,2462.02,Debit,Credit Card,Final settlement
+f85c67ae,Delta Co,2024-10-29,Consultancy Fees,004,10825.94,0.0,Debit,Credit Card,Final settlement
+ae08429f,Omega Inc,2025-07-09,Office Supplies,001,17087.79,3075.8,Debit,Bank Transfer,Reimbursed
+1d5789ce,ABC Corp,2025-05-12,Office Supplies,001,18217.1,3279.08,Debit,Bank Transfer,Advance cleared
+914c65fc,Omega Inc,2024-09-06,Maintenance,006,1782.7,320.89,Debit,Credit Card,Includes GST
+fe35606c,LMN Pvt Ltd,2025-01-09,Maintenance,006,43852.93,7893.53,Credit,UPI,Part payment
+670950fb,ABC Corp,2025-04-18,Salary,003,48921.77,8805.92,Credit,UPI,Includes GST
+43768103,Delta Co,2024-12-10,Software Purchase,005,27871.05,5016.79,Debit,Bank Transfer,Advance cleared
+c899b964,Delta Co,2025-05-18,Maintenance,006,7066.34,0.0,Debit,Cheque,Without GST
+98663ff5,ABC Corp,2025-04-05,Travel Expenses,002,22541.66,4057.5,Credit,UPI,Advance cleared
+ea4b9d89,PQR Enterprises,2024-12-02,Software Purchase,005,21622.13,3891.98,Debit,UPI,Pending approval
+bdad48f2,PQR Enterprises,2024-08-24,Travel Expenses,002,47935.14,8628.33,Credit,Cheque,Without GST
+c0199a54,ABC Corp,2024-10-29,Travel Expenses,002,43230.5,7781.49,Credit,Cash,Includes GST
+b0e2925f,ABC Corp,2024-09-12,Travel Expenses,002,21714.71,3908.65,Credit,Cash,Payment processed successfully
+08150922,XYZ Ltd,2025-01-25,Software Purchase,005,41356.08,7444.09,Debit,Cheque,Without GST
+f8eaaed3,ABC Corp,2025-03-31,Travel Expenses,002,46313.62,8336.45,Credit,Bank Transfer,Advance cleared
+7fb94c24,XYZ Ltd,2025-06-24,Office Supplies,001,43265.89,7787.86,Credit,Cheque,Pending approval
+01f3dfb9,LMN Pvt Ltd,2025-02-12,Salary,003,41179.18,7412.25,Debit,Bank Transfer,Pending approval
+63cb4216,ABC Corp,2024-10-09,Salary,003,46503.87,0.0,Credit,Bank Transfer,Pending approval
+00469460,LMN Pvt Ltd,2024-08-19,Software Purchase,005,3238.05,582.85,Credit,Cash,Part payment
+e9825cdf,LMN Pvt Ltd,2024-09-07,Consultancy Fees,004,10589.67,1906.14,Credit,Credit Card,Pending approval
+9e2ffd67,XYZ Ltd,2025-06-20,Travel Expenses,002,49604.38,8928.79,Debit,UPI,Reimbursed
+29e773f0,ABC Corp,2024-11-25,Salary,003,31871.06,0.0,Debit,Credit Card,Without GST
+d8528a6b,XYZ Ltd,2024-12-04,Maintenance,006,31862.77,5735.3,Credit,UPI,Urgent payment
+7e24c8fb,PQR Enterprises,2025-02-17,Software Purchase,005,535.14,96.33,Debit,UPI,Reimbursed
+d9cbc47f,ABC Corp,2025-05-09,Salary,003,42582.72,7664.89,Credit,Bank Transfer,Urgent payment
+201e3068,ABC Corp,2025-01-21,Maintenance,006,8361.63,0.0,Debit,UPI,Urgent payment
+ef700adf,LMN Pvt Ltd,2025-07-07,Travel Expenses,002,24268.02,0.0,Debit,Cheque,Final settlement
+4d22886c,Delta Co,2025-01-23,Maintenance,006,23834.74,0.0,Credit,Bank Transfer,Reimbursed
+281dd71e,PQR Enterprises,2025-07-22,Consultancy Fees,004,30100.81,5418.15,Credit,Cash,Urgent payment
+95696f1a,XYZ Ltd,2025-05-12,Travel Expenses,002,36905.59,6643.01,Credit,Bank Transfer,Urgent payment
+7670490b,PQR Enterprises,2025-07-08,Travel Expenses,002,27990.68,0.0,Debit,Cheque,Pending approval
+6e36f9a2,LMN Pvt Ltd,2025-01-14,Consultancy Fees,004,16481.51,2966.67,Debit,Cheque,Part payment
+3600d9fe,LMN Pvt Ltd,2024-12-02,Software Purchase,005,22805.46,4104.98,Debit,Cheque,Urgent payment
+ba701cd6,Delta Co,2025-07-10,Salary,003,36446.7,6560.41,Debit,Bank Transfer,Pending approval
+dea22eba,Omega Inc,2024-11-05,Consultancy Fees,004,35623.41,0.0,Debit,Bank Transfer,Pending approval
+a1262bd7,Omega Inc,2024-11-14,Maintenance,006,31591.18,0.0,Debit,Credit Card,Final settlement
+92021468,ABC Corp,2025-06-07,Maintenance,006,11029.53,1985.32,Debit,Cheque,Advance cleared
+51a24224,PQR Enterprises,2024-10-06,Office Supplies,001,39699.14,7145.85,Credit,UPI,Payment processed successfully
+aea583ae,Omega Inc,2024-12-23,Software Purchase,005,3628.34,0.0,Debit,Cash,Reimbursed
+15816ffb,LMN Pvt Ltd,2025-06-24,Salary,003,8157.7,1468.39,Debit,Bank Transfer,Payment processed successfully
+ce38171a,Omega Inc,2025-04-17,Travel Expenses,002,37322.55,6718.06,Credit,Bank Transfer,Without GST
+b6851b76,ABC Corp,2025-08-04,Travel Expenses,002,27634.56,4974.22,Credit,Cheque,Reimbursed
+afd172a7,XYZ Ltd,2024-10-03,Software Purchase,005,35756.86,6436.23,Credit,Cash,Part payment
+5298645c,PQR Enterprises,2025-05-24,Software Purchase,005,9645.33,1736.16,Debit,UPI,Pending approval
+62b5a56f,ABC Corp,2024-08-19,Consultancy Fees,004,28731.6,5171.69,Credit,Cheque,Urgent payment
+1a44c1ba,LMN Pvt Ltd,2024-12-12,Office Supplies,001,24215.41,4358.77,Credit,Credit Card,Final settlement
+bf10e031,Delta Co,2024-10-22,Maintenance,006,10266.77,1848.02,Credit,Bank Transfer,Part payment
+9f3ebb36,XYZ Ltd,2025-08-10,Office Supplies,001,17589.42,3166.1,Debit,Credit Card,Reimbursed
+4491c0bb,ABC Corp,2024-10-13,Consultancy Fees,004,25506.2,4591.12,Debit,UPI,Pending approval
+0a051c65,Delta Co,2025-06-17,Consultancy Fees,004,46588.94,8386.01,Credit,UPI,Includes GST
+0a4abd2a,PQR Enterprises,2025-06-20,Maintenance,006,14017.21,2523.1,Credit,Bank Transfer,Advance cleared
+f418ad9c,PQR Enterprises,2025-08-10,Software Purchase,005,7826.03,1408.69,Credit,Bank Transfer,Includes GST
+baf1e9ae,Omega Inc,2024-11-09,Software Purchase,005,36860.82,6634.95,Debit,Credit Card,Advance cleared
+dfbadfef,ABC Corp,2025-03-18,Travel Expenses,002,27419.01,4935.42,Debit,Cash,Part payment
+f513689a,PQR Enterprises,2025-05-31,Consultancy Fees,004,24504.18,4410.75,Credit,Cash,Part payment
+dd903f46,PQR Enterprises,2025-02-26,Travel Expenses,002,20200.86,3636.15,Credit,UPI,Without GST
+cb6c2b5e,XYZ Ltd,2025-02-10,Maintenance,006,1044.89,188.08,Debit,Cheque,Reimbursed
+1a477e2f,Delta Co,2025-04-30,Consultancy Fees,004,15815.0,2846.7,Credit,Cheque,Advance cleared
+dd2fa468,Delta Co,2025-03-23,Software Purchase,005,44840.77,8071.34,Debit,Credit Card,Without GST
+5d02c292,Delta Co,2025-07-31,Office Supplies,001,31305.81,5635.05,Debit,Credit Card,Final settlement
+94eef644,PQR Enterprises,2025-06-22,Office Supplies,001,3623.62,652.25,Credit,Cash,Reimbursed
+51ab2172,LMN Pvt Ltd,2024-11-22,Maintenance,006,33359.29,6004.67,Debit,Cheque,Advance cleared
+1aca6b1b,Omega Inc,2025-06-12,Travel Expenses,002,45850.04,0.0,Debit,UPI,Advance cleared
+7cce6d75,PQR Enterprises,2024-09-10,Maintenance,006,47347.37,8522.53,Debit,Bank Transfer,Urgent payment
+214f5ae3,LMN Pvt Ltd,2025-01-20,Salary,003,34800.68,0.0,Debit,Cheque,Pending approval
+42eec29a,XYZ Ltd,2024-10-11,Office Supplies,001,26984.69,4857.24,Credit,Cash,Without GST
+4bf0f105,LMN Pvt Ltd,2025-03-18,Travel Expenses,002,33180.69,5972.52,Credit,UPI,Part payment
+3166be2b,PQR Enterprises,2025-01-13,Travel Expenses,002,20497.61,3689.57,Debit,Cash,Urgent payment
+b8449303,ABC Corp,2025-08-05,Software Purchase,005,11537.45,0.0,Credit,Cash,Reimbursed
+b722b57d,LMN Pvt Ltd,2024-12-21,Consultancy Fees,004,29698.12,0.0,Debit,Cash,Without GST
+8021a85e,XYZ Ltd,2025-04-19,Software Purchase,005,41703.86,7506.69,Debit,Cash,Reimbursed
+a96f6a79,Omega Inc,2025-07-31,Office Supplies,001,25952.65,0.0,Debit,Cash,Without GST
+7ec9b5e3,ABC Corp,2025-01-30,Maintenance,006,1875.92,0.0,Credit,Credit Card,Includes GST
+abd2379e,Omega Inc,2025-02-05,Salary,003,2200.65,396.12,Debit,Bank Transfer,Reimbursed
+efab9212,PQR Enterprises,2024-11-13,Office Supplies,001,24871.6,4476.89,Debit,Bank Transfer,Part payment
+69d3741a,Omega Inc,2024-11-24,Consultancy Fees,004,44076.09,0.0,Credit,Cash,Final settlement
+9e04a648,Delta Co,2024-08-24,Consultancy Fees,004,13089.78,2356.16,Credit,Cash,Final settlement
+8f37324a,Delta Co,2024-09-11,Salary,003,30687.56,0.0,Debit,Cheque,Final settlement
+7a01e984,XYZ Ltd,2025-08-05,Software Purchase,005,20729.21,3731.26,Debit,Cheque,Without GST
+38c79dc6,XYZ Ltd,2025-06-01,Maintenance,006,30597.23,5507.5,Debit,UPI,Part payment
+a07f6e34,XYZ Ltd,2024-09-24,Maintenance,006,24206.15,4357.11,Credit,Cash,Without GST
+ea8ffcaf,XYZ Ltd,2025-07-07,Office Supplies,001,27150.02,4887.0,Debit,Cash,Urgent payment
+03e73856,Omega Inc,2024-12-02,Maintenance,006,4927.59,886.97,Credit,Credit Card,Includes GST
+ce358315,Delta Co,2025-05-30,Maintenance,006,7686.35,1383.54,Credit,Cash,Final settlement
+0939d26f,ABC Corp,2025-01-01,Consultancy Fees,004,29807.22,0.0,Debit,Cash,Includes GST
+020a7b16,XYZ Ltd,2025-07-13,Office Supplies,001,14706.48,0.0,Credit,Cheque,Payment processed successfully
+48339bba,Omega Inc,2025-07-04,Maintenance,006,26209.43,0.0,Credit,Bank Transfer,Urgent payment
+74866fbc,LMN Pvt Ltd,2025-03-31,Maintenance,006,17241.07,0.0,Credit,Cheque,Includes GST
+74298270,PQR Enterprises,2024-10-22,Software Purchase,005,48975.57,8815.6,Debit,Cheque,Includes GST
+34c7b34d,LMN Pvt Ltd,2024-12-03,Consultancy Fees,004,46822.24,8428.0,Debit,Cash,Without GST
+a68c55b0,LMN Pvt Ltd,2025-05-22,Software Purchase,005,34460.16,6202.83,Debit,Credit Card,Payment processed successfully
+dcfddf01,PQR Enterprises,2024-08-31,Travel Expenses,002,14370.87,2586.76,Debit,UPI,Payment processed successfully
+31388bec,ABC Corp,2025-07-10,Travel Expenses,002,26094.08,4696.93,Credit,Bank Transfer,Includes GST
+acc2c183,PQR Enterprises,2025-03-20,Salary,003,22132.57,3983.86,Debit,Bank Transfer,Payment processed successfully
+5bd179a6,LMN Pvt Ltd,2025-05-15,Travel Expenses,002,25978.32,4676.1,Debit,Credit Card,Pending approval
+4a381d40,ABC Corp,2024-08-18,Salary,003,38429.15,6917.25,Credit,Credit Card,Payment processed successfully
+926e46b0,PQR Enterprises,2025-05-24,Travel Expenses,002,26206.12,4717.1,Credit,UPI,Final settlement
+c8d1dfc8,XYZ Ltd,2024-08-27,Salary,003,8755.91,1576.06,Credit,Cheque,Final settlement
+4faf83a7,XYZ Ltd,2025-02-08,Consultancy Fees,004,37879.54,6818.32,Credit,Bank Transfer,Without GST
+7ed124af,XYZ Ltd,2025-02-13,Salary,003,28289.8,5092.16,Debit,Credit Card,Includes GST
+7b54d20f,XYZ Ltd,2024-11-27,Software Purchase,005,10350.98,1863.18,Debit,Bank Transfer,Includes GST
+50abf5f8,ABC Corp,2025-01-03,Salary,003,27208.87,0.0,Credit,Bank Transfer,Part payment
+ff3b9305,Omega Inc,2025-05-03,Maintenance,006,38226.73,6880.81,Debit,UPI,Urgent payment
+161cab6f,Delta Co,2025-08-07,Consultancy Fees,004,30680.92,5522.57,Debit,Cheque,Final settlement
+6d47fa5a,ABC Corp,2024-12-11,Salary,003,41003.79,7380.68,Credit,Bank Transfer,Reimbursed
+bc1fa345,LMN Pvt Ltd,2025-06-29,Consultancy Fees,004,26744.06,0.0,Debit,Credit Card,Part payment
+5ac63315,PQR Enterprises,2025-07-04,Office Supplies,001,45742.11,8233.58,Credit,Credit Card,Without GST
+50988ffc,Omega Inc,2024-09-21,Software Purchase,005,35135.18,6324.33,Debit,Bank Transfer,Advance cleared
+e33d003d,ABC Corp,2024-11-11,Travel Expenses,002,44805.12,8064.92,Credit,UPI,Advance cleared
+22fabebd,LMN Pvt Ltd,2025-07-08,Maintenance,006,24603.05,0.0,Debit,Cheque,Without GST
+61c9dfe0,Omega Inc,2025-05-14,Software Purchase,005,19379.03,0.0,Debit,UPI,Urgent payment
+0af36cb9,PQR Enterprises,2024-12-22,Maintenance,006,6739.19,1213.05,Credit,Bank Transfer,Reimbursed
+7f62412e,Delta Co,2025-01-12,Office Supplies,001,34377.33,0.0,Credit,Cheque,Reimbursed
+a717025f,Omega Inc,2025-05-09,Office Supplies,001,35780.98,6440.58,Credit,UPI,Pending approval
+6c2e5581,XYZ Ltd,2025-03-02,Consultancy Fees,004,35736.3,6432.53,Credit,Cash,Reimbursed
+38869744,Omega Inc,2024-08-24,Consultancy Fees,004,7667.72,1380.19,Debit,Credit Card,Urgent payment
+ddb82909,LMN Pvt Ltd,2024-09-22,Consultancy Fees,004,49350.23,8883.04,Debit,Cheque,Advance cleared
+cc3184f6,Delta Co,2024-08-19,Maintenance,006,42092.29,7576.61,Debit,Credit Card,Pending approval
+226382f7,PQR Enterprises,2024-11-10,Salary,003,28616.95,5151.05,Credit,Credit Card,Includes GST
+0ad028f6,XYZ Ltd,2025-03-29,Salary,003,37111.0,6679.98,Credit,Credit Card,Pending approval
+a04e9af8,PQR Enterprises,2024-09-15,Consultancy Fees,004,42435.07,0.0,Debit,Bank Transfer,Urgent payment
+9d5635b8,LMN Pvt Ltd,2024-09-06,Travel Expenses,002,10936.65,1968.6,Credit,UPI,Pending approval
+2bcedf82,XYZ Ltd,2024-12-16,Travel Expenses,002,42151.54,7587.28,Credit,Credit Card,Includes GST
+b4ec53b4,ABC Corp,2024-11-19,Office Supplies,001,25926.38,4666.75,Debit,Cheque,Urgent payment
+7a6cd255,LMN Pvt Ltd,2024-10-20,Travel Expenses,002,22101.84,0.0,Credit,Cheque,Without GST
+a61fb155,XYZ Ltd,2024-11-18,Maintenance,006,32081.62,5774.69,Debit,UPI,Urgent payment
+91a7df69,Omega Inc,2025-02-13,Maintenance,006,39660.23,7138.84,Credit,Credit Card,Reimbursed
+64ac8b4b,Omega Inc,2024-09-08,Travel Expenses,002,33495.83,6029.25,Debit,Credit Card,Part payment
+48608297,XYZ Ltd,2025-06-27,Maintenance,006,35594.53,6407.02,Debit,UPI,Payment processed successfully
+5c1d6a68,ABC Corp,2025-03-11,Office Supplies,001,12279.33,2210.28,Debit,Bank Transfer,Advance cleared
+21e67cbc,Delta Co,2025-04-30,Travel Expenses,002,27481.6,4946.69,Credit,Cheque,Final settlement
+2a84982b,PQR Enterprises,2024-09-29,Consultancy Fees,004,21038.45,0.0,Credit,Cash,Urgent payment
+dbac29fc,Delta Co,2025-06-12,Maintenance,006,16616.67,2991.0,Debit,UPI,Includes GST
+f17e9011,Delta Co,2024-11-22,Office Supplies,001,36138.36,0.0,Credit,Bank Transfer,Pending approval
+0058ad21,PQR Enterprises,2025-06-23,Travel Expenses,002,24233.51,4362.03,Debit,Cheque,Without GST
+b48457b3,Omega Inc,2025-07-07,Office Supplies,001,12050.12,2169.02,Debit,Cash,Payment processed successfully
+91a955f6,LMN Pvt Ltd,2025-05-30,Salary,003,39989.58,7198.12,Credit,Bank Transfer,Payment processed successfully
+31c497a2,LMN Pvt Ltd,2024-08-30,Maintenance,006,19297.08,3473.47,Credit,Cash,Final settlement
+0ec43fe0,Omega Inc,2024-09-01,Travel Expenses,002,21476.46,3865.76,Credit,Cash,Payment processed successfully
+6120ff2d,XYZ Ltd,2025-02-13,Salary,003,31671.39,5700.85,Debit,Cash,Reimbursed
+90a55af9,PQR Enterprises,2025-05-27,Consultancy Fees,004,25219.92,4539.59,Credit,Cheque,Pending approval
+1e30bf50,PQR Enterprises,2025-07-27,Software Purchase,005,47026.45,8464.76,Credit,Bank Transfer,Part payment
+1918f05e,LMN Pvt Ltd,2025-06-23,Consultancy Fees,004,35321.24,6357.82,Debit,Bank Transfer,Advance cleared
+9962b83c,Delta Co,2025-06-16,Software Purchase,005,24653.52,4437.63,Debit,Cash,Advance cleared
+c67f5490,LMN Pvt Ltd,2024-08-29,Travel Expenses,002,46685.38,8403.37,Credit,Cheque,Reimbursed
+575717ec,XYZ Ltd,2025-05-27,Software Purchase,005,25163.47,4529.42,Debit,Cash,Advance cleared
+13cd9676,Delta Co,2024-12-01,Software Purchase,005,44421.73,7995.91,Debit,Bank Transfer,Final settlement
+459eabfa,PQR Enterprises,2025-06-25,Consultancy Fees,004,23920.4,4305.67,Debit,Cheque,Reimbursed
+23f976e0,XYZ Ltd,2025-08-01,Travel Expenses,002,21782.33,3920.82,Debit,Bank Transfer,Reimbursed
+627238f4,Delta Co,2024-12-16,Travel Expenses,002,16708.91,3007.6,Debit,Cash,Without GST
+c9b20af4,Delta Co,2024-12-31,Maintenance,006,45274.49,8149.41,Debit,Cash,Pending approval
+ed35101e,ABC Corp,2025-05-12,Office Supplies,001,48265.17,8687.73,Credit,Cash,Pending approval
+9ca2b5fb,PQR Enterprises,2024-10-05,Office Supplies,001,44449.64,0.0,Debit,Bank Transfer,Urgent payment
+66b4fa39,ABC Corp,2025-02-17,Consultancy Fees,004,2463.34,443.4,Debit,UPI,Without GST
+63c4f826,XYZ Ltd,2024-09-03,Office Supplies,001,47775.67,8599.62,Credit,Bank Transfer,Without GST
+f70b3897,PQR Enterprises,2024-12-04,Software Purchase,005,33413.32,6014.4,Credit,Cheque,Part payment
+de899b56,Omega Inc,2025-02-09,Travel Expenses,002,31693.97,5704.91,Debit,Bank Transfer,Reimbursed
+798d554e,PQR Enterprises,2025-05-14,Software Purchase,005,46329.39,0.0,Credit,Bank Transfer,Pending approval
+264f56e1,LMN Pvt Ltd,2025-06-22,Maintenance,006,13741.53,0.0,Credit,Bank Transfer,Reimbursed
+47d0f467,ABC Corp,2025-04-16,Salary,003,21572.14,0.0,Debit,Cheque,Reimbursed
+f98ece00,LMN Pvt Ltd,2025-07-26,Office Supplies,001,43936.54,0.0,Credit,UPI,Advance cleared
+9879122a,Delta Co,2024-12-03,Maintenance,006,46379.9,8348.38,Debit,Cheque,Part payment
+c55fb9c5,LMN Pvt Ltd,2025-05-15,Travel Expenses,002,35465.57,6383.8,Debit,Credit Card,Reimbursed
+9fe23d69,PQR Enterprises,2025-06-19,Travel Expenses,002,49859.22,8974.66,Credit,UPI,Pending approval
+00dd0c04,XYZ Ltd,2025-06-24,Office Supplies,001,41229.92,7421.39,Credit,UPI,Advance cleared
+9a48bd4f,XYZ Ltd,2025-03-05,Software Purchase,005,17515.28,3152.75,Credit,Bank Transfer,Without GST
+41ce9136,LMN Pvt Ltd,2024-11-26,Consultancy Fees,004,13073.22,2353.18,Debit,Credit Card,Advance cleared
+a9fef18b,XYZ Ltd,2025-02-11,Consultancy Fees,004,32808.14,5905.47,Credit,Cheque,Urgent payment
+5e6a5ce2,XYZ Ltd,2025-05-28,Office Supplies,001,9843.57,1771.84,Credit,Cash,Advance cleared
+5657803c,Omega Inc,2024-11-23,Software Purchase,005,39957.88,7192.42,Credit,UPI,Advance cleared
+38434c70,LMN Pvt Ltd,2024-09-23,Travel Expenses,002,43935.09,7908.32,Credit,Cheque,Pending approval
+cca59f27,XYZ Ltd,2025-08-08,Consultancy Fees,004,20931.1,3767.6,Debit,Bank Transfer,Final settlement
+3d74f7e2,ABC Corp,2025-05-28,Maintenance,006,1873.56,337.24,Credit,Cheque,Without GST
+e9658419,Delta Co,2024-09-09,Travel Expenses,002,29119.02,5241.42,Debit,Bank Transfer,Reimbursed
+bb48d801,LMN Pvt Ltd,2024-12-24,Maintenance,006,2907.36,523.32,Credit,Cheque,Advance cleared
+6be8ca42,XYZ Ltd,2024-09-12,Salary,003,9020.77,1623.74,Credit,Credit Card,Final settlement
+ef329a7a,Omega Inc,2024-08-19,Maintenance,006,10347.95,1862.63,Debit,Credit Card,Part payment
+fdc767b6,Omega Inc,2025-07-02,Consultancy Fees,004,30711.59,5528.09,Debit,UPI,Payment processed successfully
+999c72a2,PQR Enterprises,2024-09-07,Software Purchase,005,23036.54,4146.58,Credit,Cash,Payment processed successfully
+aeb0844c,Omega Inc,2025-07-28,Software Purchase,005,47791.71,8602.51,Debit,Cash,Final settlement
+0394da2f,PQR Enterprises,2025-08-06,Travel Expenses,002,30299.24,5453.86,Credit,Bank Transfer,Payment processed successfully
+47e647a2,ABC Corp,2024-10-17,Consultancy Fees,004,2276.87,409.84,Credit,Credit Card,Pending approval
+c2f29f3b,Omega Inc,2025-06-26,Travel Expenses,002,16574.07,2983.33,Credit,Credit Card,Without GST
+a5ec347d,Omega Inc,2024-11-08,Office Supplies,001,43468.7,7824.37,Credit,Bank Transfer,Advance cleared
+8e9f3884,ABC Corp,2024-11-26,Office Supplies,001,45742.72,8233.69,Debit,Credit Card,Final settlement
+53b01772,PQR Enterprises,2024-12-18,Salary,003,19442.64,0.0,Credit,UPI,Final settlement
+4d222f6c,PQR Enterprises,2025-03-24,Travel Expenses,002,48729.76,0.0,Credit,Bank Transfer,Payment processed successfully
+f13d015a,ABC Corp,2025-01-12,Consultancy Fees,004,28985.81,5217.45,Debit,UPI,Payment processed successfully
+f631a9d4,LMN Pvt Ltd,2024-08-15,Salary,003,5447.86,980.61,Credit,Bank Transfer,Payment processed successfully
+a47e2881,LMN Pvt Ltd,2024-11-25,Travel Expenses,002,43780.6,7880.51,Credit,UPI,Reimbursed
+5a364afa,LMN Pvt Ltd,2025-06-08,Software Purchase,005,6780.17,0.0,Debit,UPI,Reimbursed
+0dd0f758,Delta Co,2024-10-22,Salary,003,40495.25,7289.14,Debit,Cash,Payment processed successfully
+35f64788,ABC Corp,2025-05-21,Maintenance,006,46360.15,8344.83,Debit,Credit Card,Reimbursed
+c489a7eb,LMN Pvt Ltd,2025-06-03,Consultancy Fees,004,23233.3,4181.99,Debit,Cheque,Advance cleared
+12570317,Delta Co,2025-07-20,Software Purchase,005,44628.74,0.0,Debit,Cash,Part payment
+08a6c7d6,Omega Inc,2025-07-13,Salary,003,8891.28,1600.43,Debit,Credit Card,Includes GST
+1c03bda5,PQR Enterprises,2024-11-20,Software Purchase,005,32937.26,5928.71,Debit,Cash,Part payment
+a7f547db,XYZ Ltd,2025-04-28,Software Purchase,005,19332.91,3479.92,Debit,UPI,Without GST
+f40cfd79,Delta Co,2024-12-15,Office Supplies,001,16859.63,3034.73,Debit,Cheque,Advance cleared
+eddcdde7,PQR Enterprises,2025-08-11,Maintenance,006,42211.41,7598.05,Credit,Cheque,Pending approval
+3b9e97e2,LMN Pvt Ltd,2024-10-05,Maintenance,006,43021.76,7743.92,Debit,UPI,Final settlement
+13f7562f,XYZ Ltd,2024-12-12,Software Purchase,005,2077.87,374.02,Credit,Credit Card,Without GST
+3c10872d,LMN Pvt Ltd,2024-12-15,Consultancy Fees,004,27218.24,4899.28,Credit,Credit Card,Part payment
+127a4e06,LMN Pvt Ltd,2024-08-19,Maintenance,006,46708.66,0.0,Credit,UPI,Payment processed successfully
+6b8f41c5,ABC Corp,2024-10-12,Salary,003,31268.39,5628.31,Credit,Bank Transfer,Final settlement
+508c0d98,PQR Enterprises,2024-11-17,Consultancy Fees,004,2852.31,513.42,Credit,Bank Transfer,Pending approval
+e59fd728,LMN Pvt Ltd,2025-01-23,Office Supplies,001,28771.1,0.0,Debit,Cheque,Advance cleared
+89c9db40,Delta Co,2025-01-29,Salary,003,2147.46,386.54,Credit,Cash,Reimbursed
+5f3a6430,PQR Enterprises,2024-12-13,Office Supplies,001,16952.98,3051.54,Credit,UPI,Urgent payment
+82de17f6,ABC Corp,2025-05-24,Salary,003,27715.28,4988.75,Debit,Credit Card,Without GST
+136f834e,Omega Inc,2025-02-22,Software Purchase,005,38841.73,6991.51,Credit,UPI,Advance cleared
+cf282880,LMN Pvt Ltd,2025-05-30,Travel Expenses,002,17716.7,3189.01,Credit,Bank Transfer,Includes GST
+ff4f7db5,Omega Inc,2025-02-14,Consultancy Fees,004,2150.88,387.16,Debit,Bank Transfer,Includes GST
+f0247b32,LMN Pvt Ltd,2024-10-18,Salary,003,29913.41,5384.41,Debit,Cheque,Final settlement
+a19a6699,LMN Pvt Ltd,2025-07-17,Office Supplies,001,40292.92,7252.73,Debit,Credit Card,Urgent payment
+e6605c18,Omega Inc,2025-03-14,Office Supplies,001,12796.87,2303.44,Debit,Cheque,Reimbursed
+f4f7cfe6,LMN Pvt Ltd,2025-01-30,Software Purchase,005,17494.0,0.0,Credit,Cheque,Urgent payment
+e8538742,ABC Corp,2025-04-10,Office Supplies,001,26943.69,4849.86,Credit,UPI,Reimbursed
+c3f1dc4d,Omega Inc,2025-02-27,Maintenance,006,49134.32,8844.18,Credit,Credit Card,Pending approval
+be600bb1,ABC Corp,2025-07-02,Travel Expenses,002,43304.26,7794.77,Credit,Credit Card,Reimbursed
+3eb68a83,ABC Corp,2025-03-19,Software Purchase,005,23321.1,4197.8,Debit,Bank Transfer,Urgent payment
+003ac818,Omega Inc,2024-12-15,Consultancy Fees,004,13297.95,2393.63,Debit,Credit Card,Part payment
+6fe9a265,XYZ Ltd,2025-06-16,Maintenance,006,38829.91,6989.38,Debit,Credit Card,Reimbursed
+30dd83b8,Omega Inc,2024-08-28,Salary,003,14175.83,0.0,Debit,Bank Transfer,Includes GST
+4ad4a2e7,Omega Inc,2025-02-17,Software Purchase,005,11238.49,2022.93,Credit,UPI,Final settlement
+9d238008,XYZ Ltd,2024-08-25,Consultancy Fees,004,23280.74,0.0,Credit,Bank Transfer,Without GST
+5c366500,PQR Enterprises,2025-03-25,Maintenance,006,7964.73,0.0,Debit,Cash,Includes GST
+846cdb88,Omega Inc,2024-09-06,Consultancy Fees,004,27752.25,4995.4,Credit,Bank Transfer,Without GST
+b7fed057,LMN Pvt Ltd,2024-08-29,Office Supplies,001,37575.13,6763.52,Credit,Credit Card,Urgent payment
+5ebabb5c,Omega Inc,2024-12-31,Office Supplies,001,46703.65,0.0,Debit,Bank Transfer,Advance cleared
+1cb6dc37,LMN Pvt Ltd,2024-12-06,Office Supplies,001,47423.94,0.0,Debit,Cash,Urgent payment
+b88ba30e,Omega Inc,2025-02-27,Office Supplies,001,13031.16,2345.61,Debit,Cash,Pending approval
+2acc1c0b,LMN Pvt Ltd,2024-09-07,Consultancy Fees,004,18581.4,3344.65,Credit,Cheque,Without GST
+47a4c7c3,Delta Co,2025-03-12,Consultancy Fees,004,4190.27,754.25,Debit,UPI,Urgent payment
+06aa5fc5,PQR Enterprises,2025-01-08,Consultancy Fees,004,20340.98,3661.38,Credit,Credit Card,Urgent payment
+465a8629,PQR Enterprises,2025-03-25,Maintenance,006,13695.52,2465.19,Credit,Cash,Payment processed successfully
+3082ac21,XYZ Ltd,2025-03-20,Travel Expenses,002,1378.36,248.1,Debit,Cheque,Advance cleared
+605d7c73,XYZ Ltd,2025-06-06,Software Purchase,005,19093.15,3436.77,Credit,Cash,Reimbursed
+84b2f0a2,PQR Enterprises,2025-02-16,Software Purchase,005,10402.95,1872.53,Credit,Cheque,Pending approval
+50865236,Delta Co,2025-01-15,Consultancy Fees,004,22265.77,4007.84,Credit,UPI,Pending approval
+c7a8702e,Delta Co,2024-11-04,Software Purchase,005,3047.65,548.58,Debit,Bank Transfer,Advance cleared
+721f88e8,ABC Corp,2025-07-11,Software Purchase,005,7011.48,1262.07,Credit,UPI,Payment processed successfully
+ab71063e,Delta Co,2025-07-13,Travel Expenses,002,49253.64,8865.66,Credit,Credit Card,Pending approval
+d3c7d8f2,Omega Inc,2024-12-16,Office Supplies,001,15833.33,2850.0,Debit,Cash,Part payment
+a19e5aad,XYZ Ltd,2024-12-26,Maintenance,006,47034.67,8466.24,Credit,Cash,Reimbursed
+a12d65a1,LMN Pvt Ltd,2025-03-10,Salary,003,30886.07,5559.49,Credit,Bank Transfer,Urgent payment
+225e4884,ABC Corp,2024-12-07,Consultancy Fees,004,26603.12,0.0,Credit,Cheque,Urgent payment
+39348b12,Delta Co,2025-08-08,Office Supplies,001,41621.39,7491.85,Credit,Cash,Includes GST
+d9e504d6,Delta Co,2024-10-05,Salary,003,23677.56,0.0,Debit,Cheque,Without GST
+b58f548a,Delta Co,2024-10-08,Consultancy Fees,004,8256.39,1486.15,Debit,Cash,Payment processed successfully
+517d0a13,Delta Co,2025-08-03,Travel Expenses,002,47696.82,8585.43,Credit,Cheque,Part payment
+1a4de5c7,XYZ Ltd,2024-10-08,Maintenance,006,25588.04,4605.85,Debit,Cash,Includes GST
+6365e868,PQR Enterprises,2025-05-08,Office Supplies,001,13346.25,2402.32,Credit,UPI,Part payment
+1156bb29,Omega Inc,2025-01-11,Travel Expenses,002,12198.56,2195.74,Credit,Cheque,Urgent payment
+14604a88,Delta Co,2025-05-21,Travel Expenses,002,15634.32,0.0,Debit,Cheque,Payment processed successfully
+fc13f3f6,ABC Corp,2024-09-28,Salary,003,12865.41,2315.77,Debit,Cash,Pending approval
+7a88fa03,XYZ Ltd,2024-12-08,Travel Expenses,002,15902.85,2862.51,Debit,Bank Transfer,Urgent payment
+1484717c,ABC Corp,2025-01-27,Maintenance,006,15134.63,2724.23,Debit,Cheque,Includes GST
+7039128c,XYZ Ltd,2024-10-28,Consultancy Fees,004,5751.73,1035.31,Debit,Credit Card,Pending approval
+4ea89abc,ABC Corp,2025-04-17,Maintenance,006,25303.03,4554.55,Credit,Cash,Reimbursed
+9568ec97,Omega Inc,2025-02-16,Maintenance,006,9895.31,1781.16,Credit,UPI,Part payment
+2c9db168,ABC Corp,2025-07-22,Maintenance,006,40572.16,0.0,Debit,Cash,Part payment
+c20a5c09,Delta Co,2024-10-05,Software Purchase,005,28514.16,5132.55,Debit,Bank Transfer,Advance cleared
+31e445e2,PQR Enterprises,2025-01-18,Office Supplies,001,9723.48,1750.23,Credit,UPI,Without GST
+1b294dc2,ABC Corp,2024-10-21,Travel Expenses,002,32897.65,5921.58,Debit,Credit Card,Reimbursed
+399a0da2,Delta Co,2024-08-25,Travel Expenses,002,32164.1,0.0,Debit,Credit Card,Urgent payment
+f6f94a69,PQR Enterprises,2024-11-14,Software Purchase,005,16878.89,3038.2,Debit,Bank Transfer,Part payment
+52027878,Delta Co,2024-11-11,Maintenance,006,15970.78,0.0,Credit,Credit Card,Without GST
+8e6fb0d3,XYZ Ltd,2025-03-19,Travel Expenses,002,33333.78,6000.08,Credit,Cheque,Pending approval
+0a7a500a,XYZ Ltd,2024-08-29,Consultancy Fees,004,39827.29,7168.91,Debit,Credit Card,Without GST
+8b3df840,XYZ Ltd,2025-04-22,Maintenance,006,31043.5,5587.83,Credit,Bank Transfer,Part payment
+ed8d7382,Omega Inc,2025-03-29,Salary,003,9563.49,1721.43,Credit,Cheque,Payment processed successfully
+908a5292,XYZ Ltd,2025-07-24,Software Purchase,005,34755.58,6256.0,Credit,UPI,Final settlement
+46179715,ABC Corp,2025-07-12,Travel Expenses,002,13547.31,2438.52,Debit,Credit Card,Without GST
+935f6acd,ABC Corp,2024-12-27,Salary,003,25018.29,4503.29,Credit,Bank Transfer,Advance cleared
+23b675fa,LMN Pvt Ltd,2024-10-29,Maintenance,006,26080.65,4694.52,Debit,Cheque,Reimbursed
+7f844a99,PQR Enterprises,2025-03-03,Software Purchase,005,40821.34,7347.84,Credit,Credit Card,Includes GST
+6fe24fff,Delta Co,2024-12-20,Salary,003,6614.89,0.0,Credit,Bank Transfer,Advance cleared
+3fd5c28e,Delta Co,2025-02-26,Office Supplies,001,44026.28,7924.73,Credit,Cash,Reimbursed
+baa454ce,LMN Pvt Ltd,2025-04-19,Salary,003,18455.76,3322.04,Credit,Cheque,Part payment
+1eb77d4d,Delta Co,2025-04-25,Travel Expenses,002,37712.31,0.0,Debit,Cheque,Payment processed successfully
+a588342a,Delta Co,2025-02-15,Maintenance,006,1989.93,358.19,Credit,UPI,Advance cleared
+5c40bd82,ABC Corp,2025-01-25,Office Supplies,001,27626.53,4972.78,Debit,Credit Card,Reimbursed
+2898d9fe,ABC Corp,2025-07-03,Salary,003,19653.89,3537.7,Debit,Cheque,Reimbursed
+912e25f5,PQR Enterprises,2025-01-08,Software Purchase,005,40402.73,7272.49,Debit,Credit Card,Advance cleared
+5b0227f2,ABC Corp,2024-10-22,Maintenance,006,44838.83,8070.99,Debit,Credit Card,Payment processed successfully
+6d2e63bb,Delta Co,2025-06-16,Software Purchase,005,42013.24,7562.38,Debit,Cheque,Includes GST
+147fe2d2,PQR Enterprises,2024-09-21,Software Purchase,005,2780.59,500.51,Credit,UPI,Reimbursed
+4ad91a77,Delta Co,2025-05-14,Salary,003,24136.17,4344.51,Credit,Cash,Includes GST
+ee09b7b7,Delta Co,2025-08-01,Maintenance,006,10425.09,0.0,Credit,Cash,Advance cleared
+c16664eb,ABC Corp,2024-11-07,Software Purchase,005,48192.29,0.0,Credit,Credit Card,Without GST
+9a474731,XYZ Ltd,2024-11-02,Maintenance,006,19648.34,3536.7,Credit,Credit Card,Final settlement
+a356cd4f,ABC Corp,2024-09-15,Consultancy Fees,004,21260.22,3826.84,Debit,UPI,Advance cleared
+5d1c4bea,PQR Enterprises,2024-11-11,Consultancy Fees,004,33672.9,6061.12,Debit,Bank Transfer,Includes GST
+ebd4f8e6,LMN Pvt Ltd,2025-04-29,Maintenance,006,1566.84,282.03,Credit,Bank Transfer,Advance cleared
+bb2f5a29,ABC Corp,2025-07-08,Office Supplies,001,19080.28,3434.45,Credit,Credit Card,Part payment
+8b166d43,ABC Corp,2025-05-29,Office Supplies,001,39741.95,7153.55,Credit,Bank Transfer,Part payment
+9ccb9ebc,Delta Co,2025-04-28,Consultancy Fees,004,1641.18,0.0,Debit,Bank Transfer,Includes GST
+57d91ca9,LMN Pvt Ltd,2025-06-27,Office Supplies,001,49614.68,0.0,Debit,Bank Transfer,Includes GST
+ccbd10b2,ABC Corp,2025-05-24,Maintenance,006,3357.86,604.41,Credit,UPI,Final settlement
+3b6025b7,ABC Corp,2025-03-17,Consultancy Fees,004,36328.68,6539.16,Credit,Cash,Final settlement
+9ff9aabf,ABC Corp,2025-06-02,Travel Expenses,002,8553.35,0.0,Credit,Cash,Without GST
+db2613c3,LMN Pvt Ltd,2024-12-30,Office Supplies,001,17187.49,0.0,Debit,Bank Transfer,Includes GST
+85bc8df3,Delta Co,2025-05-30,Travel Expenses,002,23927.29,0.0,Debit,Cheque,Final settlement
+a4ca04aa,Delta Co,2025-03-28,Office Supplies,001,43802.19,7884.39,Credit,Cash,Part payment
+ff3941fa,Delta Co,2025-05-27,Consultancy Fees,004,30570.82,5502.75,Debit,Bank Transfer,Advance cleared
+845c37bd,ABC Corp,2025-01-16,Consultancy Fees,004,31569.16,5682.45,Debit,Cheque,Part payment
+66795c31,XYZ Ltd,2024-11-26,Travel Expenses,002,38141.03,6865.39,Debit,UPI,Without GST
+4416bf56,Omega Inc,2025-07-26,Travel Expenses,002,2740.79,493.34,Credit,Credit Card,Urgent payment
+284f12cd,PQR Enterprises,2024-09-03,Software Purchase,005,9586.3,1725.53,Credit,Cheque,Reimbursed
+702a7bb6,Delta Co,2024-12-16,Software Purchase,005,9017.96,1623.23,Credit,Cheque,Reimbursed
+ab038f4b,Omega Inc,2024-12-21,Salary,003,49842.96,8971.73,Debit,UPI,Reimbursed
+a93d02c4,Delta Co,2025-07-03,Travel Expenses,002,22925.11,4126.52,Debit,Cash,Without GST
+af3a5639,ABC Corp,2025-07-22,Consultancy Fees,004,19554.62,3519.83,Debit,Bank Transfer,Includes GST
+5a766a31,PQR Enterprises,2024-09-18,Maintenance,006,8457.97,1522.43,Debit,Bank Transfer,Reimbursed
+af669e12,Delta Co,2025-07-02,Software Purchase,005,19653.48,0.0,Credit,UPI,Pending approval
+3157e883,LMN Pvt Ltd,2025-08-05,Travel Expenses,002,27515.13,4952.72,Credit,Cheque,Includes GST
+ca3780e5,PQR Enterprises,2024-12-23,Salary,003,38287.15,6891.69,Credit,Cheque,Reimbursed
+52789a31,PQR Enterprises,2025-07-13,Office Supplies,001,17108.76,3079.58,Credit,Cheque,Pending approval
+428f6f3a,Delta Co,2025-07-23,Consultancy Fees,004,27223.34,0.0,Debit,Credit Card,Without GST
+e47ac925,LMN Pvt Ltd,2025-03-25,Consultancy Fees,004,11668.98,2100.42,Debit,Credit Card,Includes GST
+f03f5e11,XYZ Ltd,2024-12-29,Software Purchase,005,44882.8,8078.9,Debit,UPI,Reimbursed
+a3ad5feb,XYZ Ltd,2025-05-10,Office Supplies,001,32271.9,5808.94,Debit,Cheque,Pending approval
+791946c0,XYZ Ltd,2025-03-22,Maintenance,006,41860.54,7534.9,Credit,Credit Card,Pending approval
+978d7c24,XYZ Ltd,2025-03-26,Travel Expenses,002,1010.72,0.0,Debit,Cash,Includes GST
+aff28041,Omega Inc,2025-07-27,Office Supplies,001,18778.04,3380.05,Debit,UPI,Without GST
+ebea3b37,PQR Enterprises,2024-09-07,Software Purchase,005,26190.04,4714.21,Credit,Bank Transfer,Final settlement
+3c303656,LMN Pvt Ltd,2025-02-28,Travel Expenses,002,13397.16,2411.49,Credit,Cheque,Urgent payment
+32309ca8,Omega Inc,2024-12-09,Software Purchase,005,35731.35,6431.64,Debit,Cheque,Payment processed successfully
+56d4344d,ABC Corp,2025-05-14,Consultancy Fees,004,26428.36,4757.1,Debit,Credit Card,Includes GST
+eb2b0e0b,PQR Enterprises,2025-01-02,Software Purchase,005,34373.77,6187.28,Credit,Credit Card,Without GST
+fc426862,XYZ Ltd,2025-07-17,Travel Expenses,002,34166.87,6150.04,Credit,Bank Transfer,Urgent payment
+2196176d,LMN Pvt Ltd,2025-08-04,Salary,003,1380.86,248.55,Debit,Credit Card,Urgent payment
+5ec7e6f0,LMN Pvt Ltd,2025-07-03,Salary,003,14348.2,0.0,Credit,Cash,Payment processed successfully
+48696656,PQR Enterprises,2025-07-09,Consultancy Fees,004,4975.87,895.66,Credit,Bank Transfer,Without GST
+944e69c4,Omega Inc,2025-06-19,Consultancy Fees,004,27205.3,4896.95,Credit,Cheque,Payment processed successfully
+418ae7d1,ABC Corp,2024-09-29,Maintenance,006,44053.11,7929.56,Credit,UPI,Payment processed successfully
+649e6653,Omega Inc,2025-05-25,Salary,003,4442.15,799.59,Credit,Credit Card,Reimbursed
+55ca903a,PQR Enterprises,2025-05-10,Consultancy Fees,004,33245.65,5984.22,Debit,Cheque,Advance cleared
+6db48f73,ABC Corp,2025-08-08,Software Purchase,005,18439.09,3319.04,Debit,UPI,Pending approval
+67a1629b,ABC Corp,2025-03-18,Salary,003,32546.27,5858.33,Debit,Credit Card,Payment processed successfully
+1d9779b6,Delta Co,2025-03-10,Travel Expenses,002,30371.45,5466.86,Credit,Cheque,Urgent payment
+f42f3878,PQR Enterprises,2024-10-21,Maintenance,006,28684.49,5163.21,Credit,Bank Transfer,Advance cleared
+780cf294,ABC Corp,2024-11-13,Office Supplies,001,10784.69,1941.24,Debit,Credit Card,Includes GST
+8c980931,ABC Corp,2024-10-04,Office Supplies,001,1671.85,300.93,Credit,UPI,Urgent payment
+79285a5a,Omega Inc,2025-02-18,Travel Expenses,002,23084.36,4155.18,Debit,Bank Transfer,Without GST
+c807ce8d,LMN Pvt Ltd,2024-10-29,Software Purchase,005,5943.01,1069.74,Credit,UPI,Without GST
+edb49317,ABC Corp,2025-02-21,Software Purchase,005,34231.03,6161.59,Credit,UPI,Part payment
+c80aed52,Omega Inc,2024-12-05,Consultancy Fees,004,12315.19,0.0,Credit,Cheque,Payment processed successfully
+9e3f228c,LMN Pvt Ltd,2025-05-01,Office Supplies,001,37543.1,6757.76,Credit,Cheque,Without GST
+df6f304c,ABC Corp,2025-02-02,Salary,003,17764.29,3197.57,Credit,Cheque,Advance cleared
+d43133a6,PQR Enterprises,2025-05-18,Salary,003,33019.75,5943.55,Credit,Credit Card,Pending approval
+341088d4,Delta Co,2025-01-07,Software Purchase,005,31948.83,5750.79,Credit,Bank Transfer,Urgent payment
+213bdde8,Delta Co,2024-11-09,Travel Expenses,002,22560.34,4060.86,Credit,Credit Card,Payment processed successfully
+cd1ae731,LMN Pvt Ltd,2025-01-10,Consultancy Fees,004,23338.25,4200.89,Credit,Cheque,Payment processed successfully
+88b578cd,PQR Enterprises,2024-10-29,Salary,003,37825.67,0.0,Credit,Credit Card,Includes GST
+e224e5de,XYZ Ltd,2024-10-31,Maintenance,006,9561.18,1721.01,Debit,Cheque,Advance cleared
+db316e34,ABC Corp,2025-01-10,Travel Expenses,002,10415.45,1874.78,Debit,Cheque,Pending approval
+a4143ec1,PQR Enterprises,2025-03-19,Office Supplies,001,1052.49,189.45,Credit,Bank Transfer,Advance cleared
+77e23f66,ABC Corp,2024-12-15,Travel Expenses,002,38863.03,6995.35,Debit,Bank Transfer,Without GST
+904559c8,Delta Co,2024-08-25,Salary,003,26421.99,4755.96,Debit,Cash,Final settlement
+d2beb4b5,Omega Inc,2024-10-01,Maintenance,006,15813.77,2846.48,Debit,Cash,Pending approval
+d95a4f26,Delta Co,2025-07-12,Maintenance,006,13949.34,0.0,Debit,Credit Card,Final settlement
+41900cce,XYZ Ltd,2024-09-18,Maintenance,006,44654.45,8037.8,Credit,UPI,Part payment
+7b5bfaf7,XYZ Ltd,2024-12-09,Travel Expenses,002,44709.1,0.0,Credit,Credit Card,Without GST
+f2ba57d2,PQR Enterprises,2025-02-19,Salary,003,24085.32,4335.36,Debit,Cash,Advance cleared
+c3d577b5,LMN Pvt Ltd,2025-01-09,Maintenance,006,10799.84,1943.97,Credit,Cash,Pending approval
+e8367c66,Omega Inc,2025-05-10,Consultancy Fees,004,46621.42,8391.86,Credit,Cash,Includes GST
+87f837b5,ABC Corp,2025-07-01,Travel Expenses,002,4017.49,0.0,Credit,Bank Transfer,Pending approval
+733f9d57,ABC Corp,2025-07-18,Travel Expenses,002,35530.38,6395.47,Credit,UPI,Includes GST
