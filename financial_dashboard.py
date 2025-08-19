@@ -64,7 +64,7 @@ class FinancialAnalytics:
         
         if self.api_key:
             self.llm = ChatGoogleGenerativeAI(
-                model="gemini-1.5-flash",
+                model="gemini-2.5-flash",
                 google_api_key=self.api_key,
                 temperature=0
             )
@@ -134,37 +134,141 @@ class FinancialAnalytics:
             return match.group(1).strip()
         return response.strip()
     
+    def get_sample_data(self):
+        """Get sample data from database to improve prompt"""
+        try:
+            conn = sqlite3.connect(self.db_path)
+            
+            # Get unique values for key columns
+            clients = pd.read_sql_query("SELECT DISTINCT client_name FROM audit_transactions LIMIT 5", conn)
+            ledgers = pd.read_sql_query("SELECT DISTINCT ledger_head FROM audit_transactions LIMIT 10", conn)
+            payment_modes = pd.read_sql_query("SELECT DISTINCT payment_mode FROM audit_transactions", conn)
+            
+            conn.close()
+            
+            return {
+                'clients': clients['client_name'].tolist(),
+                'ledgers': ledgers['ledger_head'].tolist(),
+                'payment_modes': payment_modes['payment_mode'].tolist()
+            }
+        except Exception:
+            return {'clients': [], 'ledgers': [], 'payment_modes': []}
+
     def nl_to_sql(self, question: str):
-        """Convert natural language to SQL"""
+        """Convert natural language to SQL with advanced prompt engineering"""
         if not self.llm:
             return None, "API key not configured"
-        
+
         try:
-            prompt = f"""You are a SQL expert. Generate a SQLite query for the audit_transactions table.
-
-Database Schema:
-- transaction_id (TEXT)
-- client_name (TEXT) 
-- date (TEXT, format: YYYY-MM-DD)
-- ledger_head (TEXT)
-- category_code (INTEGER)
-- amount (REAL)
-- gst_amount (REAL)
-- type (TEXT)
-- payment_mode (TEXT)
-- remarks (TEXT)
-- income_or_expense (TEXT) - values: 'Income' or 'Expense'
-
-Question: {question}
-
-Return only the SQL query without any formatting or explanation."""
+            # Get sample data to improve prompt
+            sample_data = self.get_sample_data()
             
+            # Create comprehensive prompt with examples and context
+            prompt = f"""You are an expert SQL query generator for financial data analysis. 
+
+DATABASE SCHEMA:
+Table: audit_transactions
+Columns:
+- transaction_id (TEXT): Unique identifier
+- client_name (TEXT): Name of client/company
+- date (TEXT): Date in YYYY-MM-DD format
+- ledger_head (TEXT): Expense/Income category
+- category_code (INTEGER): Numeric category code
+- amount (REAL): Transaction amount in rupees
+- gst_amount (REAL): GST amount
+- type (TEXT): Transaction type
+- payment_mode (TEXT): How payment was made
+- income_or_expense (TEXT): Either 'Income' or 'Expense'
+
+SAMPLE DATA VALUES:
+Client Names: {', '.join(sample_data['clients'][:5])}
+Ledger Categories: {', '.join(sample_data['ledgers'][:8])}
+Payment Modes: {', '.join(sample_data['payment_modes'])}
+
+QUERY EXAMPLES:
+Q: "Show top 5 clients by income"
+A: SELECT client_name, SUM(amount) as total_income FROM audit_transactions WHERE income_or_expense = 'Income' GROUP BY client_name ORDER BY total_income DESC LIMIT 5;
+
+Q: "Travel expenses in March 2025"
+A: SELECT SUM(amount) FROM audit_transactions WHERE ledger_head LIKE '%Travel%' AND date LIKE '2025-03%' AND income_or_expense = 'Expense';
+
+Q: "Monthly income vs expense for 2025"
+A: SELECT strftime('%Y-%m', date) as month, income_or_expense, SUM(amount) as total FROM audit_transactions WHERE date LIKE '2025%' GROUP BY month, income_or_expense ORDER BY month;
+
+IMPORTANT RULES:
+1. Always use exact column names from schema
+2. For date filtering: use LIKE with 'YYYY-MM%' pattern for months, 'YYYY%' for years
+3. For category search: use LIKE with wildcards for partial matches (e.g., ledger_head LIKE '%Travel%')
+4. For client search: use exact match or LIKE for partial names
+5. Always specify income_or_expense when relevant
+6. Use proper aggregation functions (SUM, COUNT, AVG) for numeric data
+7. Include ORDER BY and LIMIT when appropriate
+8. Return only valid SELECT statements
+
+USER QUESTION: {question}
+
+Generate only the SQL query, no explanations or formatting:"""
+
             response = self.llm.invoke([HumanMessage(content=prompt)])
             sql_query = self.extract_sql_from_response(response.content)
             
+            # Clean up the query
+            sql_query = sql_query.strip()
+            if sql_query.endswith(';'):
+                sql_query = sql_query[:-1]
+            
+            # Validate it's a SELECT query
+            if not sql_query.upper().startswith('SELECT'):
+                return None, "Generated query is not a SELECT statement"
+
             return sql_query, None
         except Exception as e:
             return None, str(e)
+    
+    def generate_result_explanation(self, question: str, result_df: pd.DataFrame, sql_query: str):
+        """Generate a 2-line explanation of the results using Gemini"""
+        if not self.llm or result_df.empty:
+            return None
+        
+        try:
+            # Prepare result summary
+            result_summary = ""
+            if len(result_df) == 1:
+                # Single result - likely an aggregation
+                if len(result_df.columns) == 1:
+                    result_summary = f"Single value: {result_df.iloc[0, 0]}"
+                else:
+                    result_summary = f"Single row with {len(result_df.columns)} columns: " + ", ".join([f"{col}: {result_df.iloc[0][col]}" for col in result_df.columns[:3]])
+            else:
+                # Multiple results
+                result_summary = f"{len(result_df)} records found. Sample columns: " + ", ".join(result_df.columns[:3])
+                if len(result_df.columns) > 3:
+                    result_summary += f" (and {len(result_df.columns)-3} more)"
+            
+            prompt = f"""Based on the user's question and SQL query results, provide a clear 2-line explanation of what the data shows.
+
+User Question: {question}
+SQL Query: {sql_query}
+Results Summary: {result_summary}
+
+Provide exactly 2 lines:
+Line 1: What the query found/calculated
+Line 2: Key insight or interpretation
+
+Keep it concise and business-focused."""
+
+            response = self.llm.invoke([HumanMessage(content=prompt)])
+            explanation = response.content.strip()
+            
+            # Ensure it's 2 lines
+            lines = explanation.split('\n')
+            if len(lines) >= 2:
+                return f"{lines[0].strip()}\n{lines[1].strip()}"
+            else:
+                return explanation
+                
+        except Exception:
+            return None
 
 def main():
     # Initialize the analytics class
@@ -403,13 +507,33 @@ def main():
         else:
             st.write("Ask questions about your financial data in plain English!")
             
-            # Sample queries
+            # Show available data context
+            with st.expander("📊 Available Data Context", expanded=False):
+                sample_data = analytics.get_sample_data()
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.write("**Sample Clients:**")
+                    for client in sample_data['clients'][:5]:
+                        st.write(f"• {client}")
+                with col2:
+                    st.write("**Expense Categories:**")
+                    for ledger in sample_data['ledgers'][:6]:
+                        st.write(f"• {ledger}")
+                with col3:
+                    st.write("**Payment Modes:**")
+                    for mode in sample_data['payment_modes']:
+                        st.write(f"• {mode}")
+            
+            # Enhanced sample queries
             sample_queries = [
                 "Show me the top 5 clients by total income",
-                "What are the highest expense transactions this year?",
+                "What are the highest expense transactions this year?", 
                 "Show income vs expense by month for 2025",
                 "Which payment mode is used most for expenses?",
-                "Show all travel expense transactions above 30000"
+                "Show all travel expense transactions above 30000",
+                "How much did PQR enterprises spend on travel in March 2025?",
+                "Compare salary expenses vs travel expenses for 2025",
+                "Show all transactions by ABC Corp in 2025"
             ]
             
             selected_sample = st.selectbox("Or select a sample query:", [""] + sample_queries)
@@ -417,43 +541,98 @@ def main():
             user_query = st.text_area(
                 "Enter your question:",
                 value=selected_sample,
-                placeholder="e.g., Show me total income by client for this year"
+                placeholder="e.g., Show me total travel expenses by client this year",
+                height=100
             )
             
-            if st.button("🔍 Run Query") and user_query:
-                with st.spinner("Processing your query..."):
+            # Query tips
+            st.info("💡 **Tips:** Use specific client names, mention time periods (March 2025, this year), and specify income/expense types for better results.")
+            
+            run_query = st.button("🔍 Run Query", type="primary")
+            if run_query and user_query:
+                with st.spinner("🤖 Generating SQL query..."):
                     sql_query, error = analytics.nl_to_sql(user_query)
                     
                     if error:
-                        st.error(f"Error: {error}")
-                    elif sql_query:
+                        st.error(f"❌ Error: {error}")
+                    elif not sql_query:
+                        st.error("❌ Could not generate SQL query from your question. Please try rephrasing.")
+                    else:
+                        # Show generated SQL
+                        st.subheader("📝 Generated SQL Query")
                         st.code(sql_query, language="sql")
                         
-                        try:
-                            conn = sqlite3.connect(analytics.db_path)
-                            result_df = pd.read_sql_query(sql_query, conn)
-                            conn.close()
-                            
-                            if not result_df.empty:
-                                st.success("Query executed successfully!")
-                                st.dataframe(result_df, use_container_width=True)
+                        # Execute query
+                        with st.spinner("🔄 Executing query..."):
+                            try:
+                                conn = sqlite3.connect(analytics.db_path)
+                                result_df = pd.read_sql_query(sql_query, conn)
+                                conn.close()
                                 
-                                # Auto-generate chart if possible
-                                if len(result_df.columns) == 2 and result_df.dtypes.iloc[1] in ['int64', 'float64']:
-                                    fig = px.bar(
-                                        result_df,
-                                        x=result_df.columns[0],
-                                        y=result_df.columns[1],
-                                        title=f"Visualization: {user_query}"
+                                if not result_df.empty:
+                                    st.success(f"✅ Query executed successfully! Found {len(result_df)} records.")
+                                    
+                                    # Generate AI explanation
+                                    explanation = analytics.generate_result_explanation(user_query, result_df, sql_query)
+                                    if explanation:
+                                        st.info(f"🤖 **AI Insight:**\n{explanation}")
+                                    
+                                    # Display results
+                                    st.subheader("📊 Results")
+                                    st.dataframe(result_df, use_container_width=True)
+                                    
+                                    # Auto-generate visualization
+                                    if len(result_df) > 1:
+                                        numeric_cols = result_df.select_dtypes(include=['number']).columns.tolist()
+                                        if len(result_df.columns) == 2 and len(numeric_cols) == 1:
+                                            # One categorical, one numeric - bar chart
+                                            cat_col = [c for c in result_df.columns if c not in numeric_cols][0]
+                                            num_col = numeric_cols[0]
+                                            fig = px.bar(
+                                                result_df, 
+                                                x=cat_col, 
+                                                y=num_col, 
+                                                title=f"📈 {user_query}",
+                                                color=num_col,
+                                                color_continuous_scale="viridis"
+                                            )
+                                            fig.update_layout(xaxis_tickangle=-45)
+                                            st.plotly_chart(fig, use_container_width=True)
+                                        elif len(numeric_cols) >= 2:
+                                            # Multiple numeric columns - line or scatter
+                                            if 'month' in result_df.columns[0].lower() or 'date' in result_df.columns[0].lower():
+                                                fig = px.line(
+                                                    result_df, 
+                                                    x=result_df.columns[0], 
+                                                    y=numeric_cols[0],
+                                                    title=f"📈 {user_query} - Trend"
+                                                )
+                                            else:
+                                                fig = px.scatter(
+                                                    result_df, 
+                                                    x=numeric_cols[0], 
+                                                    y=numeric_cols[1], 
+                                                    title=f"📊 {user_query} - Correlation"
+                                                )
+                                            st.plotly_chart(fig, use_container_width=True)
+                                    
+                                    # Download option
+                                    csv = result_df.to_csv(index=False)
+                                    st.download_button(
+                                        label="📥 Download Results as CSV",
+                                        data=csv,
+                                        file_name=f"query_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                                        mime="text/csv"
                                     )
-                                    st.plotly_chart(fig, use_container_width=True)
-                            else:
-                                st.info("Query executed but returned no results.")
-                                
-                        except Exception as e:
-                            st.error(f"Error executing query: {e}")
-                    else:
-                        st.error("Could not generate SQL query from your question.")
+                                else:
+                                    st.info("ℹ️ Query executed successfully but returned no results. Try adjusting your question or time period.")
+                                    
+                            except Exception as e:
+                                st.error(f"❌ Database error: {str(e)}")
+                                if "no such column" in str(e).lower():
+                                    st.info("💡 Try using exact column names or check the data context above.")
+                                elif "syntax error" in str(e).lower():
+                                    st.info("💡 There may be a syntax issue with the generated SQL. Try rephrasing your question.")
     
     with tab5:
         st.header("Data Explorer")

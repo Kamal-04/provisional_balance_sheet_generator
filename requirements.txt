@@ -3,4 +3,4 @@ langchain-google-genai
 langchain-experimental
 langchain-community
 python-dotenv
-sqlite3
+plotly==6.3.0
