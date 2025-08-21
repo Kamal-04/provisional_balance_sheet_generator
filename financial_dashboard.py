@@ -546,7 +546,7 @@ def main():
             )
             
             # Query tips
-            st.info("💡 **Tips:** Use specific client names, mention time periods (March 2025, this year), and specify income/expense types for better results.")
+            # st.info("💡 **Tips:** Use specific client names, mention time periods (March 2025, this year), and specify income/expense types for better results.")
             
             run_query = st.button("🔍 Run Query", type="primary")
             if run_query and user_query:
